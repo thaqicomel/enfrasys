@@ -59,7 +59,7 @@ resource subnet 'Microsoft.Network/virtualNetworks/subnets@2019-11-01' = {
 }
 
 resource publicIP 'Microsoft.Network/publicIPAddresses@2019-11-01' = {
-  name: '${resourceGroupName}ip'
+  name: '${resourceGroupName}ip2'
   location: location
   properties: {
     publicIPAllocationMethod: 'Dynamic'
