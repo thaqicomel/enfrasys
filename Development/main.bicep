@@ -1,4 +1,4 @@
-param resourceGroupName string = 'thaqitry'
+param resourceGroupName string = 'thaqitry2.0'
 param location string = 'eastus'
 param adminUsername string = 'yourAdmin' // Define parameter for admin username
 param storageAccountName string = 'thaqi${uniqueString(resourceGroup().id)}'
